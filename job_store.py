@@ -170,10 +170,10 @@ Jobs.create_jobs('IMP_UIBS_T1_FULL', 'UIBS', 2)
 Transforms.create_job_details('kettle', 'oracle', 'uibs', 'trafodion', 'traf')
 
 
-#Jobs.create_jobs('IMP_UIBS_T2_FULL', 'UIBS', 2)
-#Jobs.create_jobs('IMP_UIBS_T3_FULL', 'UIBS', 3)
-#Jobs.create_jobs('IMP_UIBS_T4_FULL', 'UIBS', 3)
-#print(Jobs.get_jobs_by_job_name('IMP_UIBS_T4_FULL'))
+#Jobs.create_jobs('IMP_UIBS_T2_FULL', 'U1', 2)
+#Jobs.create_jobs('IMP_UIBS_T3_FULL', 'U1', 3)
+#Jobs.create_jobs('IMP_UIBS_T4_FULL', 'U1', 3)
+#print(Jobs.get_jobs_by_job_name('IMP_U1_T4_FULL'))
 
 
 
